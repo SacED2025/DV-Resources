@@ -3,10 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DV Resources</title>
+    <title>DV Resources - Sacramento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #6a0dad;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .resource {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .resource:last-child {
+            border-bottom: none;
+        }
+        .resource img {
+            width: 100px;
+            height: 100px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a0dad;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to DV Resources</h1>
-    <p>This website provides domestic violence resources for the Sacramento area.</p>
+    <header>
+        Domestic Violence Resources - Sacramento Area
+    </header>
+    
+    <div class="container">
+        <h2>Local Resources</h2>
+        
+        <div class="resource">
+            <div>
+                <h3>WEAVE Inc.</h3>
+                <p>24/7 Crisis Support and Services for Domestic Violence Victims.</p>
+                <p><strong>Call:</strong> (916) 920-2952</p>
+                <p><a href="https://www.weaveinc.org" target="_blank">Visit Website</a></p>
+            </div>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.weaveinc.org" alt="WEAVE QR Code">
+        </div>
+        
+        <div class="resource">
+            <div>
+                <h3>My Sister’s House</h3>
+                <p>Support for domestic violence survivors, including emergency shelter.</p>
+                <p><strong>Call:</strong> (916) 428-3271</p>
+                <p><a href="https://www.mysistershouse.org" target="_blank">Visit Website</a></p>
+            </div>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.mysistershouse.org" alt="My Sister's House QR Code">
+        </div>
+        
+        <div class="resource">
+            <div>
+                <h3>211 Sacramento</h3>
+                <p>Community resource for assistance, including domestic violence help.</p>
+                <p><strong>Call:</strong> Dial 211</p>
+                <p><a href="https://www.211sacramento.org" target="_blank">Visit Website</a></p>
+            </div>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://www.211sacramento.org" alt="211 QR Code">
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        If you are in immediate danger, call 911. | Resources are free & confidential.
+    </div>
 </body>
 </html>
